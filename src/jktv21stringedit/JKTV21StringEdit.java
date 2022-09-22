@@ -37,7 +37,21 @@ public class JKTV21StringEdit {
                     break OUTER;
                 case 1:
                     System.out.println("Вы выбрали пункт "+number);
-                    System.out.println("Количество символов: "+str.length());
+                    int count = 0;
+                    char[] chars = {'a','b','c','d','g','h','i','j','k','l',};
+                    HashSet set = new HashSet();
+                    for (int i = 0; i < chars.length(); i++ {
+                        set.add(chars[i]);
+                        
+                    }
+                    String strInLowerCase() = str.toLowerCase();
+                    
+                    for (int i = 0; i < strstrInLowerCase.length(); i++ {
+                            
+                        if(set.contains(str.charAt(i))) count ++;
+                    }
+
+                    System.out.println("Количество символов: "+count);
                     break;
                 case 2:
                     System.out.println("Вы выбрали пункт "+number);
